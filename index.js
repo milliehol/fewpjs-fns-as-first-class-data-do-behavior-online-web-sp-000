@@ -13,10 +13,10 @@ function handleClick(e) {
  
 function greet(time) {
   let timeN = parseInt(time, 10)
-  if (timeS <= 12) {
+  if (timeN <= 12) {
     return `Good Morning`;
   }
-  else if (timeS > 17){
+  else if (timeN > 17){
     return 'Good Evening';
   }
    else {
