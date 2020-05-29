@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
  
 function greet(time) {
-  timeN = parseInt(time, 10)
+  let timeN = parseInt(time, 10)
   if (timeS <= 12) {
     return `Good Morning`;
   }
